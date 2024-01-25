@@ -1,0 +1,98 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+nav{
+  height: 100px;
+  display: flex;
+  background-color: white;
+  padding: 20px 60px;
+  box-shadow: 0px 1px 4px rgba(0,0,0,0.1);
+}
+.gray{
+  color: #918E9B;
+}
+
+.hero{
+  display: flex;
+  flex-direction: column;
+}
+
+.hero--image{
+  height: 800px;
+  padding: 50px 190px;
+  align-self: center;
+}
+
+.hero--texts{
+  padding: 40px 100px;
+  font-size: 20px;
+}
+
+.card{
+  padding: 50px 15px;
+  display: flex;
+  width: 275px;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+}
+
+.card--starImage{
+  width: 14px;
+  height: 13px;
+}
+
+.card--image{
+  border-radius: 10px;
+  width: 100%;
+  height: 350px;
+  margin-bottom: 9px;
+}
+
+.card--stats{
+  display: flexbox;
+  align-items: center;
+}
+
+.contact--card{
+  display: flexbox;
+  padding: 50px 60px;
+  width: 550px;
+  height: 500px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px rgba(0.1,0.1,0.1,0.1);
+  
+
+}
+
+.info-group{
+  display: flex;
+  align-items: center;
+}
+
+.image{
+  width: 25px;
+  height: 25px;
+}
+
+.app--cards{
+  display: flex;
+  
+}
+
+.card--badge{
+  position: absolute;
+  top: 60px;
+  left: 20px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
+}
